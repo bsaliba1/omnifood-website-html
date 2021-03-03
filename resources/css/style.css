@@ -43,9 +43,10 @@ h1 {
   word-spacing: 3px;
 }
 
-.btn:link, /* link sudo class indicates the normal state */
-.btn:visited { /* visited sudo class indicates the state after the button has been clicked */
-  display: inline-block;
+.btn:link,
+.btn:visited {
+  /*display: inline-block;*/
+  margin: 0 5px 0 0;
   padding: 10px 30px;
   font-weight: 300;
   text-decoration: none;
