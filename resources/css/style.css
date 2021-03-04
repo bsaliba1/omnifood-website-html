@@ -204,15 +204,9 @@ header {
 /* ------------------------------- */
 
 .meals-showcase {
-  display: flow-root;
-  list-style: none;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
   width: 100%;
-}
-
-.meals-showcase li {
-  display: block;
-  float: left;
-  width: 25%;
 }
 
 .meal-photo {
