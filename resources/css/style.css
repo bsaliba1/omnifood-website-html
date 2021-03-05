@@ -199,6 +199,12 @@ header {
   margin-bottom: 30px;
 }
 
+.features-body {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 60%;
+  margin: 30px auto 15px;
+}
 /* ------------------------------- */
 /* Meals */
 /* ------------------------------- */
