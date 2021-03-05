@@ -238,6 +238,10 @@ header {
 /* Meals */
 /* ------------------------------- */
 
+.section-meals {
+  padding: 0px;
+}
+
 .meals-showcase {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
