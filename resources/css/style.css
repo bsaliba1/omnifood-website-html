@@ -30,7 +30,7 @@ section {
   padding: 80px 0;
 }
 
-.box {
+.feature-box {
   padding: 1%;
 }
 
@@ -79,7 +79,7 @@ h3 {
   text-align: center;
 }
 
-.box p {
+.feature-box p {
   font-size: 90%;
   line-height: 145%;
   text-align: center;
