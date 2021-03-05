@@ -94,6 +94,20 @@ h3 {
   color: #e67e22;
 }
 
+.icon-small {
+  float: left;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+
+  /* aligning text and icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 10px;
+}
+
 /* --- Buttons --- */
 
 .btn:link,
@@ -287,4 +301,43 @@ header {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/* ------------------------------- */
+/* Cities */
+/* ------------------------------- */
+
+.cities-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 60%;
+  margin: 30px auto;
+}
+
+.city-card {
+  margin-left: 15%;
+}
+
+.city-card img {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.city-card h3 {
+  text-align: left;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.city-caption {
+  display: grid;
+}
+
+.city-feature {
+  margin-bottom: 5px;
+}
+
+.city-feature a {
+  text-decoration: none;
 }
