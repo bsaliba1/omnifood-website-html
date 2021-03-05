@@ -251,21 +251,22 @@ header {
 .meal-photo {
   width: 100%;
   margin: 0;
-  overflow: hidden;
   background-color: #000;
+  overflow: hidden;
 }
 
 .meal-photo img{
   width: 100%;
-  height: auto;
+  height: 100%;
+  filter: brightness(75%);
   transform: scale(1.15);
-  transition: transform 0.5s, opacity 0.5s;
-  opacity: 0.7;
+  transition: filter 0.5s, transform 0.5s;
 }
 
-.meal-photo img:hover {
+.meal-photo img:hover,
+.meal-photo img:active {
   transform: scale(1.03);
-  opacity: 1;
+  filter: brightness(100%);
 }
 
 /* ------------------------------- */
