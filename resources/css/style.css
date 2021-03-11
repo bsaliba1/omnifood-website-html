@@ -364,7 +364,7 @@ header {
 }
 
 /* ------------------------------- */
-/* Customer Reviews */
+/* Customer Testimonials */
 /* ------------------------------- */
 .customer-quotes {
   display: grid;
@@ -406,4 +406,20 @@ blockquote:before {
   position: absolute;
   top: 5px;
   left: 0px;
+}
+
+/* ------------------------------- */
+/* Pricing plans */
+/* ------------------------------- */
+.pricing-plans {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.pricing-plan {
+  margin: 0 auto 0 auto;
+}
+
+.pricing-plan h3 {
+  text-align: left;
 }
